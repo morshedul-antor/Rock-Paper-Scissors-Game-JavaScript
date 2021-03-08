@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="title">
+            <h2>Rock Paper Scissors Game</h2>
+            <button onclick="location.reload();"> Refresh</button>
+        </div>
+        <section id="main">
+            <div id="field">
+                <img src="./pic/rock.jpg" id="rock" alt="Rock" width="200" height="200" onclick="rpsGame(this)">
+                <img src="./pic/paper.jpg" id="paper" alt="Paper" width="200" height="200" onclick="rpsGame(this)">
+                <img src="./pic/scissors.jpg" id="scissors" alt="Scissors" width="200" height="200" onclick="rpsGame(this)">
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
